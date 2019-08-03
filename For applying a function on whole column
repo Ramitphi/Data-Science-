@@ -1,0 +1,22 @@
+def set_color(row):
+    if row["Set"] == "Z":
+        return "red"
+    elif row["Type"] == "C":
+        return "blue"
+    else:
+        return "green"
+
+df = df.assign(color=df.apply(set_color, axis=1))
+
+print(df)
+
+
+=================================================================
+=================================================================
+ Final data frame
+ 
+ Set Type  color
+0   Z    A    red
+1   Z    B    red
+2   X    B  green
+3   Y    C   blue
