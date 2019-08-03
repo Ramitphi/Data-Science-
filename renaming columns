@@ -1,0 +1,19 @@
+so i was having this df
+	Close Price	Close Price	Close Price	Close Price	Close Price
+0	  819.60	   527.50	    772.80	      82.20	      1524.95
+1	  817.50	   534.15	    785.00	      83.40	      1539.00
+2	  819.80	   528.90	    783.65	      82.25	      1530.30
+3	  820.05	   522.70	    746.95	      78.95	      1515.05
+4	  817.80	   520.40	    723.10	      77.15	      1513.55
+
+so to rename it i use
+final_df.rename(columns={'Close Price':'LUXIND',
+                         'Close Price':'JETAIRWAYS',
+                        'Close Price':'RAYMOND','Close Price':'BOMDYEING','Close Price':'PVR'}, 
+              inplace=True)
+but it was renaming all the columns to PVR
+
+further i used
+
+final_df.columns=['LUXIND','JETAIRWAYS','RAYMOND','BOMDYEING','PVR']
+ and this worked for me
