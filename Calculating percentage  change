@@ -1,0 +1,17 @@
+  LUXIND	JETAIRWAYS	RAYMOND	BOMDYEING	PVR
+0	  819.60	527.50	772.80	82.20	1524.95
+1	  817.50	534.15	785.00	83.40	1539.00
+2	  819.80	528.90	783.65	82.25	1530.30
+3	  820.05	522.70	746.95	78.95	1515.05
+4	  817.80	520.40	723.10	77.15	1513.55
+
+for calculating percentaghe change
+pr_change=final_df['LUXIND'].pct_change()
+
+result
+0         NaN
+1   -0.002562
+2    0.002813
+3    0.000305
+4   -0.002744
+Name: LUXIND, dtype: float64
