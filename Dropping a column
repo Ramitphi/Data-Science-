@@ -1,0 +1,1 @@
+df.drop(columns=['columnname1','columnname2']
