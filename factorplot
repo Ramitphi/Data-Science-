@@ -1,0 +1,2 @@
+import seaborn as sns
+sns.factorplot('column1','column2',data=df)
