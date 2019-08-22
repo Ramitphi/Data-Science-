@@ -1,0 +1,9 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+f,ax=plt.subplots(x,y,figsize=(18,10))
+
+====================================================================================================================================
+====================================================================================================================================
+This creates an subplot with x*y number of subplot where each can be accessed by using indexing
+ax[0,0] will be accessing the first subplot 
