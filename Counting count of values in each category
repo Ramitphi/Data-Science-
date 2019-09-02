@@ -1,0 +1,5 @@
+if my dataframe is stored in df.
+So to get the count of unique values i will code
+
+
+df['sex'].value_counts()
